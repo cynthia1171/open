@@ -1,0 +1,53 @@
+body {
+  background-color: #F1F1F3;
+  height: 100vh;
+}
+
+#title{
+  background-color: #007BB3;
+  height: 8em;
+  color: #fff;
+  text-align: center;
+}
+
+#title h5{
+  padding-top: 2em;
+}
+
+.pregunta{
+  color: #007BB3;
+  text-align: center;
+  height: 5em;
+  margin-top: 3.5em;
+}
+
+.btn-resp{
+  width: 80%;
+  margin-left: 10%;
+  background-color: #007BB3;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.botones{
+  padding-bottom: 3em;
+}
+
+#validar{
+  background-color: #009B3E;
+  color: #fff;
+  width: 80%;
+  margin-left: 10%;
+  padding: 6px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+input.btn-resp.active {
+  background-color: green;
+}
